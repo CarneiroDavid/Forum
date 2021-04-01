@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 25 mars 2021 à 14:39
+-- Généré le : jeu. 01 avr. 2021 à 14:45
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `messages` (
   `msg` text NOT NULL,
   `idSujet` int(11) NOT NULL,
   PRIMARY KEY (`idMessage`)
-) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `messages`
@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS `sujet` (
   `msg` text NOT NULL,
   PRIMARY KEY (`idSujet`),
   UNIQUE KEY `nom` (`nom`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `sujet`
